@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<title>TURIGUATE</title>
+</head>
+<body>
+	<nav class="menu" id="menu">
+		<div class="contenedor contenedor-botones-menu">
+			<button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+			<button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+		</div>
+
+		<div class="contenedor contenedor-enlaces-nav">
+			<div class="btn-departamentos" id="btn-departamentos">
+				<p>Selección de nuestras <span> Preferencias</span></p>
+				<i class="fas fa-caret-down"></i>
+			</div>
+
+			<div class="enlaces">
+				<a href="index.html">Inicio</a>
+				<a href="IniciarSesion.html">Iniciar Sesion</a>
+				<a href="Contacto.html">Contacto</a>
+			</div>
+		</div>
+
+		<div class="contenedor contenedor-grid">
+			<div class="grid" id="grid">
+				<div class="categorias">
+					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+					<h3 class="subtitulo">Categorias</h3>
+
+					<a href="Restaurantes.html" data-categoria="Restaurante">Restaurantes <i class="fas fa-angle-right"></i></a>
+					<a href="Hoteles.html" data-categoria="Hoteles">Hoteles <i class="fas fa-angle-right"></i></a>
+					<a href="Bares.html" data-categoria="Bares">Bares <i class="fas fa-angle-right"></i></a>
+					<a href="Transporte.html" data-categoria="Transporte">Transporte <i class="fas fa-angle-right"></i></a>
+					<a href="Tiendas.html" data-categoria="Tiendas">Tiendas <i class="fas fa-angle-right"></i></a>
+					
+				</div>
+
+				<div class="contenedor-subcategorias">
+					<div class="subcategoria " data-categoria="Restaurante">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Restaurantes</h3>
+							<a href="#">Comida Chapina</a>
+							<a href="#">Comidas Rapidas</a>
+							<a href="#">Comidas Gourmets</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/restaurante 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/restaurante 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Hoteles">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Hoteles</h3>
+							<a href="#">Hoteles Boutique</a>
+							<a href="#">Hoteles de Lujo</a>
+							<a href="#">Hoteles de playa</a>
+							<a href="#">Hoteles Eco-Amigables</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/hotel 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/hotel 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Bares">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Bares</h3>
+							<a href="#">Bares Lounge</a>
+							<a href="#">Bares con Musica en Vivo</a>
+							<a href="#">Bares de Cerveza Artesanal</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/bar 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/bar 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Transporte">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Transporte</h3>
+							<a href="#">Autobus</a>
+							<a href="#">UBER</a>
+							<a href="#">Tuck Tucks</a>
+							<a href="#">Taxi</a>
+							<a href="#">Aerolineas</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/transporte 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/transporte 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Tiendas">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Tiendas</h3>
+							<a href="#">Supermercados</a>
+							<a href="#">Tiendas de Barrio</a>
+							<a href="#">Abarroterias</a>
+							<a href="#">Mercados</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/tienda 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/tienda 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+<main>
+	<div class="FormularioContacto">
+		<form>
+			<label for="nombreapellido">Nombre y Apellido</label>
+			<input type="text" id="nombreapellido" class="input-padron" required>
+
+			<label for="correoelectronico">Correo Electrónico</label>
+			<input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+			<label for="telefono">Telefono</label>
+			<input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+			<label for="mensaje">Mensaje</label>
+			<textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+			<fieldset>
+					<legend>¿Como le gustaria que lo contactemos?</legend>
+
+					<label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+					
+
+					<label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+					
+
+					<label for="radio-whatsapp"><input type="radio" name="contacto" value="Whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+					
+			</fieldset>
+
+			<fieldset>
+				<legend>¿En cual horario prefiere ser atendido?</legend>
+					<select>
+						<option>Mañana</option>
+						<option>Tarde</option>
+						<option>Noche</option>
+					</select>
+			</fieldset>
+
+			<label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades de la nuevas atracciones turisticas?</label>
+
+			<input type="submit" value="Enviar Formulario" class="enviar">
+
+		</form>
+</main>
+
+<footer>
+		<img src="img/LogoEmpresa.png" height="230px">
+		<p class="copyright">&copy Copyright TURIGUATE - 2023</p>
+		<section class="buttons">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-google-plus"></a>
+			<a href="#" class="fa fa-youtube"></a>
+		  </section>
+	</footer>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<script src="main.js"></script>
+  
+</body>
+</html>

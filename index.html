@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<title>TURIGUATE</title>
+</head>
+
+<body>
+	<nav class="menu" id="menu">
+		<div class="contenedor contenedor-botones-menu">
+			<button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+			<button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+		</div>
+
+		<div class="contenedor contenedor-enlaces-nav">
+			<div class="btn-departamentos" id="btn-departamentos">
+				<p>Selección de nuestras <span> Preferencias</span></p>
+				<i class="fas fa-caret-down"></i>
+			</div>
+
+			<div class="enlaces">
+				<a href="index.html">Inicio</a>
+				<a href="IniciarSesion.html">Iniciar Sesion</a>
+				<a href="Contacto.html">Contacto</a>
+			</div>
+		</div>
+
+		<div class="contenedor contenedor-grid">
+			<div class="grid" id="grid">
+				<div class="categorias">
+					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+					<h3 class="subtitulo">Categorias</h3>
+
+					<a href="Restaurantes.html" data-categoria="Restaurante">Restaurantes <i
+							class="fas fa-angle-right"></i></a>
+					<a href="Hoteles.html" data-categoria="Hoteles">Hoteles <i class="fas fa-angle-right"></i></a>
+					<a href="Bares.html" data-categoria="Bares">Bares <i class="fas fa-angle-right"></i></a>
+					<a href="Transporte.html" data-categoria="Transporte">Transporte <i
+							class="fas fa-angle-right"></i></a>
+					<a href="Tiendas.html" data-categoria="Tiendas">Tiendas <i class="fas fa-angle-right"></i></a>
+
+				</div>
+
+				<div class="contenedor-subcategorias">
+					<div class="subcategoria " data-categoria="Restaurante">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Restaurantes</h3>
+							<a href="#">Comida Chapina</a>
+							<a href="#">Comidas Rapidas</a>
+							<a href="#">Comidas Gourmets</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/restaurante 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/restaurante 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Hoteles">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Hoteles</h3>
+							<a href="#">Hoteles Boutique</a>
+							<a href="#">Hoteles de Lujo</a>
+							<a href="#">Hoteles de playa</a>
+							<a href="#">Hoteles Eco-Amigables</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/hotel 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/hotel 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Bares">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Bares</h3>
+							<a href="#">Bares Lounge</a>
+							<a href="#">Bares con Musica en Vivo</a>
+							<a href="#">Bares de Cerveza Artesanal</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/bar 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/bar 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Transporte">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Transporte</h3>
+							<a href="#">Autobus</a>
+							<a href="#">UBER</a>
+							<a href="#">Tuck Tucks</a>
+							<a href="#">Taxi</a>
+							<a href="#">Aerolineas</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/transporte 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/transporte 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Tiendas">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Tiendas</h3>
+							<a href="#">Supermercados</a>
+							<a href="#">Tiendas de Barrio</a>
+							<a href="#">Abarroterias</a>
+							<a href="#">Mercados</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/tienda 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/tienda 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+	<main>
+
+		<div class="glide">
+			<div class="glide__track" data-glide-el="track">
+				<ul class="glide__slides">
+					<li class="glide__slide">
+						<img src="img/CollagueHD.png" alt="">
+
+					</li>
+					<li class="glide__slide">
+						<img src="img/paisaje8.jpg" alt="">
+						<div class="slide-content">Volcanes</div>
+					</li>
+					<li class="glide__slide">
+						<img src="img/paisaje2.jpg" alt="">
+						<div class="slide-content">Playas</div>
+					</li>
+					<li class="glide__slide">
+						<img src="img/paisaje7.jpg" alt="">
+						<div class="slide-content">Catedral Metropolitana</div>
+					</li>
+					<li class="glide__slide">
+						<img src="img/paisaje5.jpg" alt="">
+						<div class="slide-content">Arco de Santa Catalina - Antigua Guatemala</div>
+					</li>
+					<li class="glide__slide">
+						<img src="img/paisaje6.jpg" alt="">
+						<div class="slide-content">Ciudad de Guatemala Nocturna</div>
+					</li>
+				</ul>
+			</div>
+			<div class="glide__bullets" data-glide-el="controls[nav]">
+				<button class="glide__bullet" data-glide-dir="=0"></button>
+				<button class="glide__bullet" data-glide-dir="=1"></button>
+				<button class="glide__bullet" data-glide-dir="=2"></button>
+				<button class="glide__bullet" data-glide-dir="=3"></button>
+				<button class="glide__bullet" data-glide-dir="=4"></button>
+				<button class="glide__bullet" data-glide-dir="=5"></button>
+
+
+			</div>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/glide.min.js"></script>
+
+
+		<section class="principal">
+
+			<h2 class="titulo-principal">Sobre Turiguate</h2>
+
+			<img class="utensilios" src="img/ArcoAntigua.jpg" alt="Imagen Turistica">
+
+			<p>Ubicada en el corazón de la ciudad, la Pagina TuriGuate trae para el mercado de turismo. Fundada en 2023.
+
+				Nuestra misión es: "Proporcionar diversión y calidad de vida a nuestros clientes".
+
+			</p>
+
+
+		</section>
+		<div class="generales">
+			<h2 class="titulo">ATRACCIONES</h2>
+			<div class="diferencias">
+				<div class="diferencia">
+					<a href="Transporte.html">
+						<h2>TRANSPORTE</h2>
+						<img src="img/transporteTurismo.jpeg" alt="">
+						<p>Contamos con trasnporte para que tenga una agradable visita</p>
+					</a>
+				</div>
+				<div class="diferencia">
+					<a href="IniciarSesion.html">
+						<h2>ATENCION PERSONALIZADA</h2>
+						<img src="img/atencion.jpg" alt="">
+						<p>No se preocupe, nosotros estamos para atender sus inquietudes</p>
+					</a>
+				</div>
+				<div class="diferencia">
+					<a href="Contacto.html">
+						<h2>GUIA TURISTICO</h2>
+						<img src="img/guiaturistico.jpeg" alt="">
+						<p>Contamos con personal calificado para que su visita a Guatemala sea inolvidable</p>
+					</a>
+				</div>
+				<div class="diferencia">
+					<a href="Restaurantes.html">
+						<h2>RESTAURANTES</h2>
+						<img src="img/restaurantesguatemala.jpg" alt="">
+						<p>Contamos con restaurantes de comida Chapina y demás comida que desee</p>
+					</a>
+				</div>
+				<div class="diferencia">
+					<a href="#">
+						<h2>BELLOS PAISAJES</h2>
+						<img src="img/paisajes.jpg" alt="Transporte">
+						<p>GUATEMALA cuenta con hermosos paisajes en donde disfrutara de un buen descanso.</p>
+					</a>
+				</div>
+				<div class="diferencia">
+					<h2>HOTELES</h2>
+					<a href="Hoteles.html">
+						<img src="img/hotelesturista.jpg" alt="">
+						<p>Contamos con hoteles de alta categoria para que su estadia en Guatemala sea inolvidable</p>
+					</a>
+				</div>
+				<div class="diferencia">
+					<a href="Tiendas.html">
+						<h2>TIENDAS</h2>
+						<img src="img/familia.jpg" alt="">
+						<p>Tenemos tiendas en toda Guatemala para que pueda adquirir todo lo que desee</p>
+					</a>
+				</div>
+					<div class="diferencia">
+						<a href="Bares.html">
+						<h2>BARES</h2>
+						<img src="img/baresGuatemala.jpg" alt="">
+						<p>Tenemos las mejores ubicaciones listadas para su mayor diversión</p>
+					</a>
+				</div>
+			</div>
+		</div>
+				
+		
+
+
+
+		<div class="mapaPrincipal">
+			<section class="mapa">
+				<h3 class="titulo-principal">Nuestra Ubicación</h3>
+				<p>Nuestro establecimiento esta ubicado en el corazón de la ciudad.</p>
+
+				<div class="mapa-contenido">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123551.7455491787!2d-90.70237446828227!3d14.599528775434688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a23af2977fb9%3A0x27df2eee90a1915d!2sInstituto%20Guatemalteco%20de%20Turismo!5e0!3m2!1ses!2sgt!4v1684390244147!5m2!1ses!2sgt"
+						width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+
+			</section>
+		</div>	
+
+
+
+
+		<section class="diferenciales">
+
+			<div class="video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/koIjcep1I4A"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen></iframe>
+			</div>
+
+			<h1>Reseñas</h1>
+			<div id="reseñas-container">
+				<div class="reseña">
+
+					<img src="img/persona1.jpg" alt="Foto Usuario 1" class="foto-usuario">
+					<div class="contenido-reseña">
+						<div class="nombre">Maria Espinosa</div>
+						<div class="fecha">Abril 2023</div>
+						<div class="comentario">¡Excelente servicio! Disfruté mucho de mi visita.</div>
+					</div>
+				</div>
+				<div class="reseña">
+					<img src="img/persona2.jpg" alt="Foto Usuario 2" class="foto-usuario">
+					<div class="contenido-reseña">
+						<div class="nombre">Alexander Muller</div>
+						<div class="fecha">Mayo 2023</div>
+						<div class="comentario">No podría estar más satisfecho. Definitivamente volveré.</div>
+					</div>
+				</div>
+				<!-- Agregar más reseñas aquí -->
+			</div>
+
+			<div id="nueva-reseña-form">
+				<h2>Agregar nueva reseña</h2>
+				<form id="form-reseña">
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" name="nombre" required>
+
+					<label for="fecha">Fecha:</label>
+					<input type="date" id="fecha" name="fecha" required>
+
+					<label for="comentario">Comentario:</label>
+					<textarea id="comentario" name="comentario" required></textarea>
+
+					<button type="submit">Agregar reseña</button>
+				</form>
+			</div>
+
+
+
+
+
+		</section>
+
+
+	</main>
+
+	<footer>
+		<img src="img/LogoEmpresa.png" height="230px">
+		<p class="copyright">&copy Copyright TURIGUATE - 2023</p>
+		<section class="buttons">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-google-plus"></a>
+			<a href="#" class="fa fa-youtube"></a>
+		</section>
+	</footer>
+
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>

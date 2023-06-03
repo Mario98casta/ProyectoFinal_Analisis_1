@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/cartas_style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<title>TURIGUATE</title>
+</head>
+<body>
+	<nav class="menu" id="menu">
+		<div class="contenedor contenedor-botones-menu">
+			<button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+			<button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+		</div>
+
+		<div class="contenedor contenedor-enlaces-nav">
+			<div class="btn-departamentos" id="btn-departamentos">
+				<p>Selección de nuestras <span> Preferencias</span></p>
+				<i class="fas fa-caret-down"></i>
+			</div>
+
+			<div class="enlaces">
+				<a href="index.html">Inicio</a>
+				<a href="IniciarSesion.html">Iniciar Sesion</a>
+				<a href="Contacto.html">Contacto</a>
+			</div>
+		</div>
+
+		<div class="contenedor contenedor-grid">
+			<div class="grid" id="grid">
+				<div class="categorias">
+					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+					<h3 class="subtitulo">Categorias</h3>
+
+					<a href="Restaurantes.html" data-categoria="Restaurante">Restaurantes <i class="fas fa-angle-right"></i></a>
+					<a href="Hoteles.html" data-categoria="Hoteles">Hoteles <i class="fas fa-angle-right"></i></a>
+					<a href="Bares.html" data-categoria="Bares">Bares <i class="fas fa-angle-right"></i></a>
+					<a href="Transporte.html" data-categoria="Transporte">Transporte <i class="fas fa-angle-right"></i></a>
+					<a href="Tiendas.html" data-categoria="Tiendas">Tiendas <i class="fas fa-angle-right"></i></a>
+					
+				</div>
+
+				<div class="contenedor-subcategorias">
+					<div class="subcategoria " data-categoria="Restaurante">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Restaurantes</h3>
+							<a href="#">Comida Chapina</a>
+							<a href="#">Comidas Rapidas</a>
+							<a href="#">Comidas Gourmets</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/restaurante 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/restaurante 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Hoteles">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Hoteles</h3>
+							<a href="#">Hoteles Boutique</a>
+							<a href="#">Hoteles de Lujo</a>
+							<a href="#">Hoteles de playa</a>
+							<a href="#">Hoteles Eco-Amigables</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/hotel 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/hotel 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Bares">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Bares</h3>
+							<a href="#">Bares Lounge</a>
+							<a href="#">Bares con Musica en Vivo</a>
+							<a href="#">Bares de Cerveza Artesanal</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/bar 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/bar 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Transporte">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Transporte</h3>
+							<a href="#">Pickup</a>
+							<a href="#">UBER</a>
+							<a href="#">Microbus</a>
+							<a href="#">Taxi</a>
+							<a href="#">Aerolineas</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/transporte 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/transporte 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Tiendas">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Tiendas</h3>
+							<a href="#">Supermercados</a>
+							<a href="#">Tiendas de Barrio</a>
+							<a href="#">Abarroterias</a>
+							<a href="#">Mercados</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/tienda 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/tienda 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+<main>
+	<div class="card">
+        <div class="face front">
+            <img src="img/mercado central.jpg" alt="">
+            <h3>Mercado Central</h3>
+        </div>
+        <div class="face back">
+            <h3>Mercado Central</h3>
+            <p>Ubicado en el centro, al lado de la Plaza de la Constitución, la Catedral y el Palacio de Cultura, el mercado central ofrece frutas, verduras y muchísimos productos locales, es ordenado y limpio.</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.2517536350138!2d-90.51335198515926!3d14.64164558977637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a213fb4b9a9b%3A0x5c2d3f2a976ff354!2sMercado%20Central%20de%20Guatemala!5e0!3m2!1ses!2sgt!4v1685054510132!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          
+			<div class="link">
+				<a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/abarroteria.jpeg" alt="">
+            <h3>Abarroteria El Ahorro</h3>
+        </div>
+        <div class="face back">
+            <h3>Abarroteria El Ahorro</h3>
+            <p>Todos los productos que necesitas y buena atención</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d494090.62836902373!2d-90.85124826718747!3d14.651227800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a148aa34642b%3A0x59131b283cb3c8c8!2sAbarroteria%20El%20Ahorro!5e0!3m2!1ses!2sgt!4v1685054810852!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/tienda de barrio.jpg" alt="">
+            <h3>Tienda de Barrio</h3>
+        </div>
+        <div class="face back">
+            <h3>Tienda de Barrio</h3>
+            <p>Sitio como muchos en guatemala que se puede ver en todos los lados de pais, son muy surtidos en productos y estan disponibles a todas horas.</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24152.728811301444!2d-90.50914025451613!3d14.627196467342475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a26a75c26f33%3A0x56120efc5c540484!2sTienda%20%22La%20Esquinita%22!5e0!3m2!1ses!2sgt!4v1685055032527!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/pradera.jpg" alt="">
+            <h3>Centro Comercial Pradera</h3>
+        </div>
+        <div class="face back">
+            <h3>Centro Comercial Pradera</h3>
+			<p>----------------------</p>
+            <p> Pradera ofrece una mezcla comercial diversa, entretenimiento familiar, gastronomía e innovación en las comunidades donde tiene presencia,crecimiento para múltiples marcas emblemáticas. </p>
+           <p>----------------------</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61789.83687339039!2d-90.55176219999997!3d14.549722800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a1c3236f9ca1%3A0xc9bca0aed9e291e2!2sCentro%20Comercial%20Pradera%20Vistares!5e0!3m2!1ses!2sgt!4v1685056712541!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/la torre.png" alt="">
+            <h3>Supermerdaco LATORRE</h3>
+        </div>
+        <div class="face back">
+            <h3>Supermerdaco LATORRE</h3>
+            <p> Encuentra miles de productos más baratos. La mejor variedad la encuentras en La Torre </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d494227.2372897128!2d-90.79111266718745!3d14.590510600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3c19aa7e14b%3A0xf32b272a61cb1270!2sSupermercado%20La%20Torre!5e0!3m2!1ses!2sgt!4v1685055805259!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/WALMART.webp" alt="">
+            <h3>WALMART</h3>
+        </div>
+        <div class="face back">
+            <h3>WALMART</h3>
+            <p> Es una corporación multinacional de tiendas de origen estadounidense, que opera cadenas de grandes almacenes de descuento y clubes de almacenes </p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123537.39864855862!2d-90.62845230102536!3d14.625049918043505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a1b1922e47d9%3A0x83974af043d5e051!2sWalmart!5e0!3m2!1ses!2sgt!4v1685056041591!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/Mercado Venezuela-Nimajuyu.jpg" alt="">
+            <h3>Mercado Venezuela-Nimajuyu</h3>
+        </div>
+        <div class="face back">
+            <h3>Mercado Venezuela-Nimajuyu</h3>
+			<p>----------------</p>
+            <p> Buen mercado, muy surtido, encuentras de todo, Productos frescos. </p>
+			<p>----------------</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.864804764726!2d-90.55395088516035!3d14.549722789834881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a6c4f80b425d%3A0xff9ce26f0a1598d2!2sMercado%20Venezuela-Nimajuyu!5e0!3m2!1ses!2sgt!4v1685056601205!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/pricesmart.JPG" alt="">
+            <h3>PRICESMART</h3>
+        </div>
+        <div class="face back">
+            <h3>PRICESMART</h3>
+            <p> Cientos de productos únicos que no encontrarás en ninguna otra parte. Afíliate hoy mismo! </p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d247159.34749356157!2d-90.55176219999997!3d14.549722800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPriceSmart!5e0!3m2!1ses!2sgt!4v1685056883139!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</main>
+
+<footer>
+		<img src="img/LogoEmpresa.png" height="230px">
+		<p class="copyright">&copy Copyright TURIGUATE - 2023</p>
+		<section class="buttons">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-google-plus"></a>
+			<a href="#" class="fa fa-youtube"></a>
+		  </section>
+	</footer>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<script src="main.js"></script>
+  
+</body>
+</html>
