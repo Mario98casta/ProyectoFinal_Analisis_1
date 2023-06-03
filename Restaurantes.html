@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/cartas_style.css">
+	<link rel="stylesheet" href="css/styles-slides.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<title>TURIGUATE</title>
+</head>
+<body>
+	<nav class="menu" id="menu">
+		<div class="contenedor contenedor-botones-menu">
+			<button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+			<button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+		</div>
+
+		<div class="contenedor contenedor-enlaces-nav">
+			<div class="btn-departamentos" id="btn-departamentos">
+				<p>Selección de nuestras <span> Preferencias</span></p>
+				<i class="fas fa-caret-down"></i>
+			</div>
+
+			<div class="enlaces">
+				<a href="index.html">Inicio</a>
+				<a href="IniciarSesion.html">Iniciar Sesion</a>
+				<a href="Contacto.html">Contacto</a>
+			</div>
+		</div>
+
+		<div class="contenedor contenedor-grid">
+			<div class="grid" id="grid">
+				<div class="categorias">
+					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+					<h3 class="subtitulo">Categorias</h3>
+
+					<a href="Restaurantes.html" data-categoria="Restaurante">Restaurantes <i class="fas fa-angle-right"></i></a>
+					<a href="Hoteles.html" data-categoria="Hoteles">Hoteles <i class="fas fa-angle-right"></i></a>
+					<a href="Bares.html" data-categoria="Bares">Bares <i class="fas fa-angle-right"></i></a>
+					<a href="Transporte.html" data-categoria="Transporte">Transporte <i class="fas fa-angle-right"></i></a>
+					<a href="Tiendas.html" data-categoria="Tiendas">Tiendas <i class="fas fa-angle-right"></i></a>
+					
+				</div>
+
+				<div class="contenedor-subcategorias">
+					<div class="subcategoria " data-categoria="Restaurante">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Restaurantes</h3>
+							<a href="#">Comida Chapina</a>
+							<a href="#">Comidas Rapidas</a>
+							<a href="#">Comidas Gourmets</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/restaurante 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/restaurante 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Hoteles">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Hoteles</h3>
+							<a href="#">Hoteles Boutique</a>
+							<a href="#">Hoteles de Lujo</a>
+							<a href="#">Hoteles de playa</a>
+							<a href="#">Hoteles Eco-Amigables</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/hotel 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/hotel 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Bares">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Bares</h3>
+							<a href="#">Bares Lounge</a>
+							<a href="#">Bares con Musica en Vivo</a>
+							<a href="#">Bares de Cerveza Artesanal</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/bar 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/bar 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Transporte">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Transporte</h3>
+							<a href="#">Pickup</a>
+							<a href="#">UBER</a>
+							<a href="#">Microbus</a>
+							<a href="#">Taxi</a>
+							<a href="#">Aerolineas</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/transporte 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/transporte 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Tiendas">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Tiendas</h3>
+							<a href="#">Supermercados</a>
+							<a href="#">Tiendas de Barrio</a>
+							<a href="#">Abarroterias</a>
+							<a href="#">Mercados</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/tienda 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/tienda 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+<main>
+	<div class="card">
+        <div class="face front">
+            <img src="img/restaurante 1.jpg" alt="">
+            <h3>LOS CEBOLLINES</h3>
+        </div>
+        <div class="face back">
+            <h3>LOS CEBOLLINES</h3>
+            <p>Los Cebollines, una marca de Restaurantes y Servicios, S.A., nace en 1983, como una taquería en la zona 9 de la ciudad de Guatemala, en la plazuela España- hoy conocida como Plaza España.</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12986.756662719603!2d-90.521606437381!3d14.599881565096027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3cf68b15ed5%3A0x70b2419ab2380506!2sLos%20Cebollines!5e0!3m2!1ses!2sgt!4v1684979802675!5m2!1ses!2sgt" width=100% height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/restaurante 3.jpg" alt="">
+            <h3>Nais</h3>
+        </div>
+        <div class="face back">
+            <h3>Nais</h3>
+            <p>Nais es el primer y único restaurante en Guatemala en recibir dicho distintivo, el cual reconoce la excelencia en la manipulación y producción higiénica de los alimentos.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2346.7963640622365!2d-90.52045622150246!3d14.606498510821103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3d3e8b08051%3A0xbbd30d114cb2b355!2sNais%20Plaza!5e0!3m2!1ses!2sgt!4v1685029718156!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/Hibiscus.jpg" alt="">
+            <h3>Hibiscus</h3>
+        </div>
+        <div class="face back">
+            <h3>Hibiscus</h3>
+            <p> Este restaurante contemporáneo es el escenario perfecto para eventos sociales y corporativos, ofreciendo ambientes privados dentro de sus instalaciones, con todas las comodidades, equipo y servicio personalizado. </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.5834081452645!2d-90.55601348515948!3d14.622791789788469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a1a553fd748d%3A0xb58679b0d37a7fd9!2sHibiscus!5e0!3m2!1ses!2sgt!4v1685031444900!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/Señora PU.jpg" alt="">
+            <h3>La Cocina de la Señora Pu</h3>
+        </div>
+        <div class="face back">
+            <h3>La Cocina de la Señora Pu</h3>
+            <p> La Cocina de la Señora Pu es un restaurante de comida guatemalteca, en donde se re interpreta la antigua cocina maya para hacer platos modernos. </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d342.4258882982562!2d-90.51392281535878!3d14.638783666570092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a216e3743035%3A0xa119785f730d8cfb!2sLa%20Cocina%20de%20la%20Se%C3%B1ora%20Pu!5e1!3m2!1ses!2sgt!4v1685031854391!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/restaurante 2.jpg" alt="">
+            <h3>Pollo Campero</h3>
+        </div>
+        <div class="face back">
+            <h3>Pollo campero</h3>
+            <p> Nuestros clientes, nuestra prioridad. Brindamos una atención amigable y cálida ofreciendo deliciosas comidas de POLLO, en un ambiente familiar, haciendo sentir a cada cliente como un INVITADO ÚNICO. </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d69316.65197768922!2d-90.60902525754913!3d14.596835775827664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a0f2dea707f1%3A0x15d07b1d0e3d207d!2sPollo%20Campero%20%E2%80%A2%20Plaza%20San%20Crist%C3%B3bal!5e0!3m2!1ses!2sgt!4v1685032108771!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/restaurante 5.jpg" alt="">
+            <h3>La Estancia</h3>
+        </div>
+        <div class="face back">
+            <h3>La Estancia</h3>
+            <p> La Estancia, es una empresa que ofrece los servicios de alimentos, desayunos buffet, almuerzos, cenas, pasteles, bebidas alcohólicas, gaseosas, jugos naturales, catering y salones para eventos. </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109341.36535416129!2d-90.68270666862135!3d14.472076507615057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858909254ac05981%3A0x4d9d5ffdfd7bfc12!2sRestaurante%20La%20Estancia%20Amatitl%C3%A1n!5e0!3m2!1ses!2sgt!4v1685032329267!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/Burger king.jpg" alt="">
+            <h3>Burger King</h3>
+        </div>
+        <div class="face back">
+            <h3>Burger King</h3>
+            <p>  Fundada en 1954, Burger King® es la segunda cadena de hamburguesas en el mundo. Hogar original del WHOPPER®, en donde encontrarás productos y servicios de calidad que te crean una buena experiencia. </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182555.88516029046!2d-90.6447397662856!3d14.55975019117411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a6cbda427579%3A0xa5dd5b9030362ffe!2sBurger%20King!5e0!3m2!1ses!2sgt!4v1685032723672!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/Heladeria.jpg" alt="">
+            <h3>Heladeria POPS</h3>
+        </div>
+        <div class="face back">
+            <h3>Heladeria POPS</h3>
+            <p> Todos tenemos un sabor de helado de POPS que nos transporta a algún momento de nuestra vida. Es por eso que POPS nos invita a volver a donde fuimos felices y comprobar que la felicidad, sabe a POPS. </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d203628.70094654866!2d-90.61880262527069!3d14.636440334973843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a2170593f70b%3A0xbdd52857c0c1532b!2sPops!5e0!3m2!1ses!2sgt!4v1685033027376!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+
+	<div class="glide">
+		<div class="glide__track" data-glide-el="track">
+			<ul class="glide__slides">
+				<li class="glide__slide">
+					<img src="img/Comidaloscebollines.jpg.jpeg" alt="">
+					<a href="https://cebollines.com/promociones" class="button">MENÚ CLICK AQUI - LOS CEBOLLINES</a>
+					
+					
+				</li>
+				<li class="glide__slide">
+					<img src="img/ComidarestauranteNais.jpg.png" alt="">
+					<a href="https://naisrestaurantes.com/menus/" class="button">MENÚ CLICK AQUI - NAIS</a>
+					
+				</li>
+				<li class="glide__slide">
+					<img src="img/comidaHibiscus.jpg" alt="">
+					<a href="https://linktr.ee/hibiscusgt" class="button">MENÚ CLICK AQUI - HIBISCUS</a>
+					
+				</li>
+				<li class="glide__slide">
+					<img src="img/ComidaLaCocinaDeLaPo.jpg" alt="">
+					<a href="https://www.senorapu.com/cocina.html" class="button">MENÚ CLICK AQUI - LA COCINA DE LA SEÑORA PU</a>
+					
+				</li>
+				<li class="glide__slide">
+					<img src="img/comidaPollocampero.jpg" alt="">
+					<a href="https://gt.campero.com/menu/pollo/men-s-de-pollo" class="button">MENÚ CLICK AQUI - POLLO CAMPERO</a>
+					
+				</li>
+				<li class="glide__slide">
+					<img src="img/ComidaLaEstancia.jpg" alt="">
+					<a href="http://www.restauranteestancia.com/nuestra-carta-2" class="button1">MENÚ CLICK AQUI - LA ESTANCIA</a>
+					
+				</li>
+				<li class="glide__slide">
+					<img src="img/comidaburguerking.jpg" alt="">
+					<a href="https://bk.gt/productos/combos" class="button2">MENÚ CLICK AQUI - BURGUER KING</a>
+				
+				</li>
+				<li class="glide__slide">
+					<img src="img/heladeriapoposcomida.jpg.png" alt="">
+					<a href="https://pops.com.gt/info/menu" class="button">MENÚ CLICK AQUI - HELARIA POPS</a>
+				
+				</li>
+			</ul>
+		</div>
+		<div class="glide__bullets" data-glide-el="controls[nav]">
+			<button class="glide__bullet" data-glide-dir="=0"></button>
+			<button class="glide__bullet" data-glide-dir="=1"></button>
+			<button class="glide__bullet" data-glide-dir="=2"></button>
+			<button class="glide__bullet" data-glide-dir="=3"></button>
+			<button class="glide__bullet" data-glide-dir="=4"></button>
+			<button class="glide__bullet" data-glide-dir="=5"></button>
+			<button class="glide__bullet" data-glide-dir="=6"></button>
+			<button class="glide__bullet" data-glide-dir="=7"></button>
+			
+
+
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/glide.min.js"></script>
+
+
+
+
+</main>
+
+<footer>
+		<img src="img/LogoEmpresa.png" height="230px">
+		<p class="copyright">&copy Copyright TURIGUATE - 2023</p>
+		<section class="buttons">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-google-plus"></a>
+			<a href="#" class="fa fa-youtube"></a>
+		  </section>
+	</footer>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<script src="main.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

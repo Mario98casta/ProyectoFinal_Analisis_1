@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/cartas_style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<title>TURIGUATE</title>
+</head>
+<body>
+	<nav class="menu" id="menu">
+		<div class="contenedor contenedor-botones-menu">
+			<button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+			<button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+		</div>
+
+		<div class="contenedor contenedor-enlaces-nav">
+			<div class="btn-departamentos" id="btn-departamentos">
+				<p>Selección de nuestras <span> Preferencias</span></p>
+				<i class="fas fa-caret-down"></i>
+			</div>
+
+			<div class="enlaces">
+				<a href="index.html">Inicio</a>
+				<a href="IniciarSesion.html">Iniciar Sesion</a>
+				<a href="Contacto.html">Contacto</a>
+			</div>
+		</div>
+
+		<div class="contenedor contenedor-grid">
+			<div class="grid" id="grid">
+				<div class="categorias">
+					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+					<h3 class="subtitulo">Categorias</h3>
+
+					<a href="Restaurantes.html" data-categoria="Restaurante">Restaurantes <i class="fas fa-angle-right"></i></a>
+					<a href="Hoteles.html" data-categoria="Hoteles">Hoteles <i class="fas fa-angle-right"></i></a>
+					<a href="Bares.html" data-categoria="Bares">Bares <i class="fas fa-angle-right"></i></a>
+					<a href="Transporte.html" data-categoria="Transporte">Transporte <i class="fas fa-angle-right"></i></a>
+					<a href="Tiendas.html" data-categoria="Tiendas">Tiendas <i class="fas fa-angle-right"></i></a>
+					
+				</div>
+
+				<div class="contenedor-subcategorias">
+					<div class="subcategoria " data-categoria="Restaurante">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Restaurantes</h3>
+							<a href="#">Comida Chapina</a>
+							<a href="#">Comidas Rapidas</a>
+							<a href="#">Comidas Gourmets</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/restaurante 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/restaurante 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Hoteles">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Hoteles</h3>
+							<a href="#">Hoteles Boutique</a>
+							<a href="#">Hoteles de Lujo</a>
+							<a href="#">Hoteles de playa</a>
+							<a href="#">Hoteles Eco-Amigables</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/hotel 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/hotel 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Bares">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Bares</h3>
+							<a href="#">Bares Lounge</a>
+							<a href="#">Bares con Musica en Vivo</a>
+							<a href="#">Bares de Cerveza Artesanal</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/bar 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/bar 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Transporte">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Transporte</h3>
+							<a href="#">Pick Up</a>
+							<a href="#">UBER</a>
+							<a href="#">Microbus</a>
+							<a href="#">Taxi</a>
+							<a href="#">Aerolineas</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/transporte 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/transporte 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Tiendas">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Tiendas</h3>
+							<a href="#">Supermercados</a>
+							<a href="#">Tiendas de Barrio</a>
+							<a href="#">Abarroterias</a>
+							<a href="#">Mercados</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/tienda 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/tienda 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+<main>
+	<div class="card">
+        <div class="face front">
+            <img src="img/Microbus.png" alt="">
+            <h3>Microbus</h3>
+        </div>
+        <div class="face back">
+            <h3>Microbus</h3>
+            <p>Entrega el auto con la misma cantidad de combustible que tenía al recogerlo.</p>
+            <p>Precio: $110</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1631.9610233969183!2d-90.53186250527773!3d14.588129142544322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a15f18a23e65%3A0xa8d9f9b1ae2d4eca!2sAeropuerto%20Internacional%20La%20Aurora!5e0!3m2!1ses!2sgt!4v1685049644024!5m2!1ses!2sgt" width="270" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/UBER-Logo.jpg" alt="">
+            <h3>Uber</h3>
+        </div>
+        <div class="face back">
+            <h3>Uber</h3>
+            <p> Uber es una empresa de Tecnología que facilita, por medio de su aplicación, que conductores privados encuentren personas que necesitan viajes seguros y confiables.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.9773774419928!2d-90.51089908515976!3d14.600364589802645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a36a0e0b8279%3A0x5f6e4a27bb08469!2sAtenci%C3%B3n%20Presencial%20Uber%20-%20Zona%2010!5e0!3m2!1ses!2sgt!4v1685050487461!5m2!1ses!2sgt" width="270" height="90" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/pick up.png" alt="">
+            <h3>Pick Up</h3>
+        </div>
+        <div class="face back">
+            <h3>Pick U</h3>
+			<p>Entrega el auto con la misma cantidad de combustible que tenía al recogerlo.</p>
+            <p>Precio: $1.077</p>
+
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1631.9610233969183!2d-90.53186250527773!3d14.588129142544322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a15f18a23e65%3A0xa8d9f9b1ae2d4eca!2sAeropuerto%20Internacional%20La%20Aurora!5e0!3m2!1ses!2sgt!4v1685049644024!5m2!1ses!2sgt" width="270" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/Taxi.JPG" alt="">
+            <h3>Taxi</h3>
+        </div>
+        <div class="face back">
+            <h3>Taxi</h3>
+            <p> Empresa dedicada al transporte de personas de una manera profesional </p>
+            <p>---------------</p>
+			<p>Telefono: 52033564</p>
+			<p>---------------</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.693635030093!2d-90.53308412563716!3d14.616520376688191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a1f31e61dbd5%3A0xa8089c2749da2b76!2sTaxiguatemala!5e0!3m2!1ses!2sgt!4v1685052374171!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/avianca.jpg" alt="">
+            <h3>Aerolinea Avianca</h3>
+        </div>
+        <div class="face back">
+            <h3>Aerolinea Avianca</h3>
+            <p> Seremos la aerolínea preferida de nuestra región, cumpliendo consistentemente nuestra promesa de valor, compartiendo un excelente ambiente de trabajo y obteniendo los mejores resultados de la industria. </p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4796.3214306231375!2d-90.53306181286449!3d14.587989489255092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a1466c6f33e3%3A0xbb025aa7ec7ff3e8!2sAvianca%20Equipaje!5e0!3m2!1ses!2sgt!4v1685053023689!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/spirit.png" alt="">
+            <h3>Aerolinea Spirit</h3>
+        </div>
+        <div class="face back">
+            <h3>Aerolinea Spirit</h3>
+            <p>Estamos dedicados a combinar un gran valor con un excelente servicio mientras reinventando la experiencia de las aerolíneas.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.3240911459951!2d-90.53037028759718!3d14.588505711038444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a1ad1549b577%3A0x9b067cf2f6b9adcf!2sSpirit!5e0!3m2!1ses!2sgt!4v1685053465526!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/copa.png" alt="">
+            <h3>Aerolinea Copa Airlines</h3>
+        </div>
+        <div class="face back">
+            <h3>Aerolinea Copa Airlines</h3>
+            <p>Los clientes que se pongan en contacto con nuestro Centro de reservaciones, que visiten cualquiera de nuestros mostradores de venta de boletos o que visiten copa.com recibirán la tarifa más baja disponible.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.32409861538827!2d-90.53050708025695!3d14.588498897237006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a111d151c437%3A0x5d76302b68052c7f!2sCopa%20Airlines!5e0!3m2!1ses!2sgt!4v1685053748262!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/Carro.png" alt="">
+			<h3>Auto</h3>
+        </div>
+        <div class="face back">
+            <h3>Auto</h3>
+            <p>Entrega el auto con la misma cantidad de combustible que tenía al recogerlo.</p>
+            <p>Precio: $198</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1631.9610233969183!2d-90.53186250527773!3d14.588129142544322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a15f18a23e65%3A0xa8d9f9b1ae2d4eca!2sAeropuerto%20Internacional%20La%20Aurora!5e0!3m2!1ses!2sgt!4v1685049644024!5m2!1ses!2sgt" width="270" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</main>
+
+<footer>
+		<img src="img/LogoEmpresa.png" height="230px">
+		<p class="copyright">&copy Copyright TURIGUATE - 2023</p>
+		<section class="buttons">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-google-plus"></a>
+			<a href="#" class="fa fa-youtube"></a>
+		  </section>
+	</footer>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<script src="main.js"></script>
+  
+</body>
+</html>
