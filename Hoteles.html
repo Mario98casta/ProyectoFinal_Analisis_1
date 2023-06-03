@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/cartas_style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<title>TURIGUATE</title>
+</head>
+<body>
+	<nav class="menu" id="menu">
+		<div class="contenedor contenedor-botones-menu">
+			<button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+			<button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+		</div>
+
+		<div class="contenedor contenedor-enlaces-nav">
+			<div class="btn-departamentos" id="btn-departamentos">
+				<p>Selección de nuestras <span> Preferencias</span></p>
+				<i class="fas fa-caret-down"></i>
+			</div>
+
+			<div class="enlaces">
+				<a href="index.html">Inicio</a>
+				<a href="IniciarSesion.html">Iniciar Sesion</a>
+				<a href="Contacto.html">Contacto</a>
+			</div>
+		</div>
+
+		<div class="contenedor contenedor-grid">
+			<div class="grid" id="grid">
+				<div class="categorias">
+					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+					<h3 class="subtitulo">Categorias</h3>
+
+					<a href="Restaurantes.html" data-categoria="Restaurante">Restaurantes <i class="fas fa-angle-right"></i></a>
+					<a href="Hoteles.html" data-categoria="Hoteles">Hoteles <i class="fas fa-angle-right"></i></a>
+					<a href="Bares.html" data-categoria="Bares">Bares <i class="fas fa-angle-right"></i></a>
+					<a href="Transporte.html" data-categoria="Transporte">Transporte <i class="fas fa-angle-right"></i></a>
+					<a href="Tiendas.html" data-categoria="Tiendas">Tiendas <i class="fas fa-angle-right"></i></a>
+					
+				</div>
+
+				<div class="contenedor-subcategorias">
+					<div class="subcategoria " data-categoria="Restaurante">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Restaurantes</h3>
+							<a href="#">Comida Chapina</a>
+							<a href="#">Comidas Rapidas</a>
+							<a href="#">Comidas Gourmets</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/restaurante 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/restaurante 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Hoteles">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Hoteles</h3>
+							<a href="#">Hoteles Boutique</a>
+							<a href="#">Hoteles de Lujo</a>
+							<a href="#">Hoteles de playa</a>
+							<a href="#">Hoteles Eco-Amigables</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/hotel 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/hotel 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Bares">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Bares</h3>
+							<a href="#">Bares Lounge</a>
+							<a href="#">Bares con Musica en Vivo</a>
+							<a href="#">Bares de Cerveza Artesanal</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/bar 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/bar 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Transporte">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Transporte</h3>
+							<a href="#">Pickup</a>
+							<a href="#">UBER</a>
+							<a href="#">Microbus</a>
+							<a href="#">Taxi</a>
+							<a href="#">Aerolineas</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/transporte 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/transporte 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Tiendas">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Tiendas</h3>
+							<a href="#">Supermercados</a>
+							<a href="#">Tiendas de Barrio</a>
+							<a href="#">Abarroterias</a>
+							<a href="#">Mercados</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/tienda 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/tienda 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+<main>
+	<div class="card">
+        <div class="face front">
+            <img src="img/hotel 4.jpg" alt="">
+            <h3>Hotel Barcelo</h3>
+        </div>
+        <div class="face back">
+            <h3>Hotel Barcelo</h3>
+            <p>El hotel Barceló Guatemala City es un magnífico hotel urbano que goza de una estratégica ubicación dentro de la principal zona de negocios, rodeado de restaurantes, comercios y áreas de entretenimiento.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.0252587301406!2d-90.52115248515979!3d14.597636589804381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3da4d796741%3A0x67a03ec10722b685!2sBarcel%C3%B3%20Guatemala%20City!5e0!3m2!1ses!2sgt!4v1685033664104!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/hotel 3.jpg" alt="">
+            <h3>Grand Tikal Futura Hotel</h3>
+        </div>
+        <div class="face back">
+            <h3>Grand Tikal Futura Hotel</h3>
+            <p>El Grand Tikal Futura Hotel cuenta con un hotel localizado en el tercer nivel, cines, centro comercial, espacio de oficinas, aparcamientos y otros usos.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.587498926332!2d-90.5562557851595!3d14.62255908978851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a1baa9d16f77%3A0x6867b4859eecd06e!2sGrand%20Tikal%20Futura%20Hotel!5e0!3m2!1ses!2sgt!4v1685034013330!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/hotel 1.jpg" alt="">
+            <h3>The Westin Camino Real</h3>
+        </div>
+        <div class="face back">
+            <h3>The Westin Camino Real</h3>
+            <p>The Westin Camino Real tiene como objetivo de que tu visita sea lo más relajante y agradable posible.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.0196090848735!2d-90.5157699!3d14.597958499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5fed3668f4548f%3A0x966beff74fe51ab!2sThe%20Westin%20Camino%20Real%20Guatemala!5e0!3m2!1ses!2sgt!4v1685034166790!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/Intercontinental.jpg" alt="">
+            <h3> Intercontinental Real Guatemala</h3>
+        </div>
+        <div class="face back">
+            <h3> Intercontinental Real Guatemala</h3>
+            <p>El hotel Real InterContinental Guatemala ofrece una experiencia culinaria con gran variedad de opciones gastronómicas para consentir su paladar.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.0170029917676!2d-90.51666968515978!3d14.598106989804071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3c538511d69%3A0x2428530068718505!2sReal%20InterContinental%20Guatemala!5e0!3m2!1ses!2sgt!4v1685034652595!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/biltmore.jpg" alt="">
+            <h3>Hotel Biltmore Guatemala</h3>
+        </div>
+        <div class="face back">
+            <h3>Hotel Biltmore Guatemala</h3>
+            <p> La búsqueda del hotel para familias ideal en Ciudad de Guatemala no tiene por qué ser complicada. Bienvenido a Hotel Biltmore Guatemala, una fantástica opción para viajeros como tú. </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.034882897241!2d-90.5162527!3d14.597088200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3dad5576e23%3A0xdc6114e8674cd979!2sHotel%20Biltmore!5e0!3m2!1ses!2sgt!4v1685034827732!5m2!1ses!2sgt" width="270" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/clario.jpg" alt="">
+            <h3>Clarion Suites</h3>
+        </div>
+        <div class="face back">
+            <h3>Clarion Suites</h3>
+            <p>Disfrute de nuestra cocina internacional en un entorno único, La Poza es el único restaurante en Guatemala que está rodeado de vegetación y una cascada lo que hace de este un lugar de descanso.</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.0216624930717!2d-90.51388289999998!3d14.59784150000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3c5a89b9143%3A0x571961215eabd3ca!2sHotel%20Clarion%20Suites%20Guatemala!5e0!3m2!1ses!2sgt!4v1685035146568!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/Holiday Inn.jpg" alt="">
+            <h3>Holiday Inn </h3>
+        </div>
+        <div class="face back">
+            <h3>Holiday Inn</h3>
+            <p> Holiday Inn Guatemala es perfecto para disfrutar de un excelente alojamiento, modernas instalaciones y servicios de la mejor calidad, además de ser miembro de Intercontinental Hotels Group, lo que garantiza el respaldo de una cadena internacional. </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.996527497157!2d-90.51794058515978!3d14.59927358980332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a222ca2589c3%3A0x670b9e96c2003ff4!2sHoliday%20Inn%20Guatemala!5e0!3m2!1ses!2sgt!4v1685035564735!5m2!1ses!2sgt" width="270" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/Hilton Garden.jpg" alt="">
+            <h3>Hilton Garden Inn</h3>
+        </div>
+        <div class="face back">
+            <h3>nombre restaurante</h3>
+            <p>Situado en el distrito financiero y de negocios, el nuevo hotel Hilton Garden Inn Guatemala City ofrece una base ideal para viajeros de negocios como de placer.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.985483474893!2d-90.51996318515975!3d14.599902789802892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3d09f2f5067%3A0xd57f1276641df7b4!2sHilton%20Garden%20Inn%20Guatemala%20City!5e0!3m2!1ses!2sgt!4v1685035821728!5m2!1ses!2sgt" width="270" height="90" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</main>
+
+<footer>
+		<img src="img/LogoEmpresa.png" height="230px">
+		<p class="copyright">&copy Copyright TURIGUATE - 2023</p>
+		<section class="buttons">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-google-plus"></a>
+			<a href="#" class="fa fa-youtube"></a>
+		  </section>
+	</footer>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<script src="main.js"></script>
+  
+</body>
+</html>

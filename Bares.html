@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/cartas_style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<title>TURIGUATE</title>
+</head>
+<body>
+	<nav class="menu" id="menu">
+		<div class="contenedor contenedor-botones-menu">
+			<button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+			<button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+		</div>
+
+		<div class="contenedor contenedor-enlaces-nav">
+			<div class="btn-departamentos" id="btn-departamentos">
+				<p>Selección de nuestras <span> Preferencias</span></p>
+				<i class="fas fa-caret-down"></i>
+			</div>
+
+			<div class="enlaces">
+				<a href="index.html">Inicio</a>
+				<a href="IniciarSesion.html">Iniciar Sesion</a>
+				<a href="Contacto.html">Contacto</a>
+			</div>
+		</div>
+
+		<div class="contenedor contenedor-grid">
+			<div class="grid" id="grid">
+				<div class="categorias">
+					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+					<h3 class="subtitulo">Categorias</h3>
+
+					<a href="Restaurantes.html" data-categoria="Restaurante">Restaurantes <i class="fas fa-angle-right"></i></a>
+					<a href="Hoteles.html" data-categoria="Hoteles">Hoteles <i class="fas fa-angle-right"></i></a>
+					<a href="Bares.html" data-categoria="Bares">Bares <i class="fas fa-angle-right"></i></a>
+					<a href="Transporte.html" data-categoria="Transporte">Transporte <i class="fas fa-angle-right"></i></a>
+					<a href="Tiendas.html" data-categoria="Tiendas">Tiendas <i class="fas fa-angle-right"></i></a>
+					
+				</div>
+
+				<div class="contenedor-subcategorias">
+					<div class="subcategoria " data-categoria="Restaurante">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Restaurantes</h3>
+							<a href="#">Comida Chapina</a>
+							<a href="#">Comidas Rapidas</a>
+							<a href="#">Comidas Gourmets</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/restaurante 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/restaurante 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/restaurante 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Hoteles">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Hoteles</h3>
+							<a href="#">Hoteles Boutique</a>
+							<a href="#">Hoteles de Lujo</a>
+							<a href="#">Hoteles de playa</a>
+							<a href="#">Hoteles Eco-Amigables</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/hotel 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/hotel 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/hotel 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Bares">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Bares</h3>
+							<a href="#">Bares Lounge</a>
+							<a href="#">Bares con Musica en Vivo</a>
+							<a href="#">Bares de Cerveza Artesanal</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/bar 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/bar 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/bar 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Transporte">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Transporte</h3>
+							<a href="#">Pickup</a>
+							<a href="#">UBER</a>
+							<a href="#">Microbus</a>
+							<a href="#">Taxi</a>
+							<a href="#">Aerolineas</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/transporte 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/transporte 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/transporte 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Tiendas">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Tiendas</h3>
+							<a href="#">Supermercados</a>
+							<a href="#">Tiendas de Barrio</a>
+							<a href="#">Abarroterias</a>
+							<a href="#">Mercados</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/tienda 1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/tienda 2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/tienda 5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+<main>
+	<div class="card">
+        <div class="face front">
+            <img src="img/la playa.jpg" alt="">
+            <h3>Bar La Playa</h3>
+        </div>
+        <div class="face back">
+            <h3>Bar La Playa</h3>
+            <p>La Playa es un lugar muy bueno para poder disfrutar de una velada tranquila con tus amigos. El ambiente es alegre y además tienen diferentes áreas para conversar y compartir un menú amplio de bebidas.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61769.75195183265!2d-90.51558538515953!3d14.621307689789205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3008ef8c057%3A0x3058296f5e291667!2sLa%20Playa!5e0!3m2!1ses!2sgt!4v1685038290718!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/bar karma.jpg" alt="">
+            <h3>Bar Karma</h3>
+        </div>
+        <div class="face back">
+            <h3>Bar Karma</h3>
+            <p>Karma es un bar ubicado en 4 Grados Norte, es un espacio ideal para platicar con tus amigos y compartir un par de tragos. Lo mejor es que encontrarás hermosos columpios y una mesa de billar para jugar.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.609496989541!2d-90.51558538515953!3d14.621307689789198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a230edf77e1f%3A0x386f0e406d525a51!2sKarma%2C%20Gastro-Bar!5e0!3m2!1ses!2sgt!4v1685038027990!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/London Bar.jpg" alt="">
+            <h3>London Bar</h3>
+        </div>
+        <div class="face back">
+            <h3>London Bar</h3>
+            <p> Eventos sin igual y la verdad esta genial, deberían de asistir... Atención de primera, buena música, un lugar para visitar si en verdad quieren pasar una buena noche de musica, bebidas y disfrutar</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.5521934067688!2d-90.48369468515946!3d14.624567289787207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a35e26630671%3A0x1ce4fcbb6d85c250!2sLondon%20BAR!5e0!3m2!1ses!2sgt!4v1685037869635!5m2!1ses!2sgt" width="270" height="90" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img src="img/Frat House.jpg" alt="">
+            <h3>Frat House</h3>
+        </div>
+        <div class="face back">
+            <h3>Frat House</h3>
+            <p> Frat House es un bar único y diferente para universitarios y jóvenes que quieren disfrutar de un buen ambiente donde nunca faltan los juegos, las promociones, buena música, comida. </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.0913426415996!2d-90.51503168515984!3d14.59387068980677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3cf4782c27b%3A0x8b4c374428b83c19!2sFrat%20House!5e0!3m2!1ses!2sgt!4v1685037503392!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/Bajo Fondo Funk.jpg" alt="">
+            <h3>Bajo Fondo Funk</h3>
+        </div>
+        <div class="face back">
+            <h3>Bajo Fondo Funk</h3>
+            <p> Una conocida rincón de la periferia de la zona viva, zona 10 de Bajo Fondo Funk es sin duda nunca la misma experiencia dos veces. </p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.04014788602!2d-90.5166685851598!3d14.596788189804876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3c44fc84c13%3A0x4505b5d856b2ca6a!2sBajoFondo%20Funk!5e0!3m2!1ses!2sgt!4v1685037108657!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/Shotios.jpg" alt="">
+            <h3>Shotios</h3>
+        </div>
+        <div class="face back">
+            <h3>Shotios</h3>
+            <p> Muy divertido. Buen ambiente y excelente sabor en los shots. Además de la barra de shots hay un lounge de ambiente relajado con buenos tragos y algo de comida. </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30888.51617917714!2d-90.53420126044922!3d14.595399199999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3a303a9b667%3A0x51137b2c872c797e!2sSHOTIOS%20Obelisco!5e0!3m2!1ses!2sgt!4v1685036985984!5m2!1ses!2sgt" width="270" height="90" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/The Box Lounge Groove.jpg" alt="">
+            <h3>The Box Lounge Groove</h3>
+        </div>
+        <div class="face back">
+            <h3>The Box Lounge Groove</h3>
+            <p> Somos un pequeño lugar en Ciudad de Guatemala en donde nos apasiona la música electrónica desde el año 2004. Tenemos djs compartiendo música de martes a sábado. </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.0405427424926!2d-90.5166904851598!3d14.59676568980486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3c437d3663f%3A0x190f23bf51c29e6d!2sThe%20Box%20Lounge%20Groove!5e0!3m2!1ses!2sgt!4v1685036754135!5m2!1ses!2sgt" width="270" height="90" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="card">
+        <div class="face front">
+            <img src="img/Shakespeare's Pub.jpg" alt="">
+            <h3>Shakespeare's Pub</h3>
+        </div>
+        <div class="face back">
+            <h3>Shakespeare's Pub</h3>
+            <p> Es un lugar muy tranquilo, seguro, bueno para ir solo, con pareja o con los amigos, lo recomiendo al 100%. El personal que atiende es muy amable. Los precios muy accesibles. Ambiente agradable, simplemente me fascina. </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.991465418876!2d-90.51760568515978!3d14.599561989803158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3bde429201b%3A0x9543618d22de31c2!2sShakespeare%E2%80%99s%20Pub!5e0!3m2!1ses!2sgt!4v1685036277191!5m2!1ses!2sgt" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="link">
+                <a href="#">Details</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</main>
+
+<footer>
+		<img src="img/LogoEmpresa.png" height="230px">
+		<p class="copyright">&copy Copyright TURIGUATE - 2023</p>
+		<section class="buttons">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-google-plus"></a>
+			<a href="#" class="fa fa-youtube"></a>
+		  </section>
+	</footer>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<script src="main.js"></script>
+  
+</body>
+</html>
