@@ -5,4 +5,4 @@ Documentacion de Sprint semana 1 https://drive.google.com/drive/folders/1ypJFU1m
 
 Link para acceder a la aplicación
 
-https://s3.amazonaws.com/www.turiguate.com/Turiguate1.0.9/index.html
+https://s3.amazonaws.com/www.turiguate.com/Turiguate1.0.10/index.html
